@@ -95,6 +95,19 @@ for(let data of product){
 const filterRedItems = product.filter((row) => row.price  < 100)
 console.table(filterRedItems)
 
+const personne_1 = {
+    nom : "Berner Lee",
+    prenom : "Tim"
+}
+const personne_2 = {
+    nom : "Doe",
+    prenom : "John"
+}
+const people = []
+
+people.push(personne_1, personne_2)
+console.table(people)
+console.log(people[0])
 })()
 
 
