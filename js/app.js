@@ -108,6 +108,15 @@ const people = []
 people.push(personne_1, personne_2)
 console.table(people)
 console.log(people[0])
+
+
+const adventurer = {
+    name : "test",
+    age : 30
+  };
+  
+  const dogName = adventurer?.age?? "le nom n'existe pas"; //chainage optionnel
+  console.log(dogName)
 })()
 
 
