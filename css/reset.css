@@ -1,0 +1,56 @@
+/* reset css */
+/* Element + attr + value */
+html {
+    font-size: 62.5%; /* 16px * 62.5 = 10.00 */
+  }
+  
+  /* prop générale pour mettre en forme la police de base  */
+  body {
+    font: 1.6rem "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+    margin: 0;
+    background-color: var(--bgmain);
+  }
+  
+  /* on supprime toutes les marges par défaut */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol,
+  figure {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  a {
+    color: rgb(171, 18, 18);
+    text-decoration: none;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+  }
+  input,
+  button {
+    border: 0;
+  }
+  input {
+    width: 100%;
+  }
+  button {
+    background: none;
+    color: #fff;
+    font-size: inherit;
+    text-align: center;
+  }
