@@ -53,7 +53,7 @@
     ]
     console.log(Object.values(persons));
     console.table(persons)
-    persons.forEach((cle) =>{
+    persons.map((cle) =>{
         console.log(cle.nom+' '+cle.prenom)
     })
 })()
