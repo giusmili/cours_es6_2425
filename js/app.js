@@ -56,6 +56,9 @@
     persons.map((cle) =>{
         console.log(cle.nom+' '+cle.prenom)
     })
+
+    //opérateurs
+
 })()
 
 
